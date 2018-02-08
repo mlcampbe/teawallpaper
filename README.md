@@ -1,5 +1,5 @@
 # Tea Wallpaper
-A Ubersicht widget to display a wallpaper with colors that correspond to the time of the day. The script cycles through 8 images and blends
+A Ubersicht widget to display a wallpaper with colors that correspond to the time of the day. The widget cycles through 8 images and blends
 them together seemlessly so that there is a smooth transition between the images every 3 hours over a 24 hour period.
 
 # Install
