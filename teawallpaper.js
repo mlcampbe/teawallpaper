@@ -64,7 +64,7 @@ update: function(output, domEl) {
   var topLayer = new Image();
   // bottom layer
   bottomLayer.onload = function() {
-    console.log("bottom layer=" + bottomLayer.src);
+    console.log(time + " bottom layer=" + bottomLayer.src);
     $domEl.find('.bottomLayerContainer').addClass('old');
     var $div = $('<div class="bottomLayerContainer" />');
     $div.css('background-image', 'url("' + bottomLayer.src + '")');;
@@ -76,7 +76,7 @@ update: function(output, domEl) {
   };
   // top layer
   topLayer.onload = function() {
-    console.log("top layer=" + topLayer.src + " opacity=" + opacity);
+    console.log(time + " top layer=" + topLayer.src + " opacity=" + opacity);
     $domEl.find('.topLayerContainer').addClass('old');
     var $div = $('<div class="topLayerContainer" />');
     $div.css('background-image', 'url("' + topLayer.src + '")');
@@ -87,11 +87,10 @@ update: function(output, domEl) {
     });
     $domEl.append($div);
   };
+  topLayer.src = "teawallpaper.widget/" + imageDir + "/" + images[(index + 1) % imageCount];
   if (this.currIndex != index) {
-    console.log("updating bottom layer");
     this.currIndex = index;
     bottomLayer.src = "teawallpaper.widget/" + imageDir + "/" + images[index];
   }
-  topLayer.src = "teawallpaper.widget/" + imageDir + "/" + images[(index + 1) % imageCount];
 }
 
