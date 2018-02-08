@@ -4,7 +4,7 @@ them together seemlessly so that there is a smooth transition between the images
 
 # Install
 Edit the teawallpaper.js and review/modify the following items:
-1) The "firstHourImage" variable on line 50. This is the time of day that the first images in the "images" array will be displayed. By default this is 6am.
+1) The "firstHourImage" variable on line 50. This is the time of day that the first image in the "images" array will be displayed. By default this is 6am.
 2) The "imageDir" variable on line 51. This is the subdirectory that holds the 8 images to cycle through. The default is "hexagons" but the widget also includes "solids", "triangles", and "trianglify" to try out as well.
 
 # Customization
