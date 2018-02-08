@@ -18,15 +18,16 @@ Take a look at the live geopattern generator at http://btmills.github.io/geopatt
 It is hard to build a screenshot as the background changes over time. The below screenshot shows the color as a complete 24-hour cycle
 from 6am to 6am. When loaded the progression between colors is updated every 10 minutes so that the transition between 2 images is hardly
 noticable other than the color will gradually change.
-![Alt text](/screenshot.png?raw=true)
+![Screenshot](/screenshot.png?raw=true)
 
 The other included images are:
-Hexagons
+
 ![Hexagons](/hexagons.png?raw=true)
-Triangles
+
 ![Triangles](/triangles.png?raw=true)
-Trianglify
+
 ![Trianglify](/trianglify.png?raw=true)
+
 
 # Credits
 This code is based upon the original source code for Tea-Time-Lapse by gruppler at https://gruppler.deviantart.com/art/Tea-Time-Lapse-99395260
