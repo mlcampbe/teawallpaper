@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trianglify basic example</title>
+    <style>
+    html, body {
+      height: 100%;
+      width: 100%;
+      margin: 0 0;
+      padding: 0 0;
+      text-align: center;
+      cursor: pointer;
+      display: flex;
+      flex-align: center;
+      font-size: 0;
+    }
+    canvas {
+      width: 100%;
+      height: 100%;
+    }
+    </style>
+  </head>
+  <body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/0.2.1/trianglify.min.js"></script>
+  <script> 
+   var colorFunc = function(x, y) {
+      return 'hsl('+Math.floor(Math.abs(x*y)*360)+',80%,60%)';
+    };
+  </script>
+  <script>
+    var pattern = Trianglify({
+      height: 1152,
+      width: 2048,
+      seed: 'mike campbell',
+      x_colors: ["#ffffe5","#f7fcb9","#d9f0a3","#addd8e","#78c679","#41ab5d","#238443","#006837","#004529"],
+      cell_size: 100});
+    document.body.appendChild(pattern.canvas());
+  </script>
+  </body>
+</html>
