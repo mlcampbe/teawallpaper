@@ -22,11 +22,11 @@ noticable other than the color will gradually change.
 
 The other included images are:
 
-![Hexagons](/hexagons.png?raw=true)
+Hexagons ![Hexagons](/hexagons.png?raw=true)
 
-![Triangles](/triangles.png?raw=true)
+Triangles ![Triangles](/triangles.png?raw=true)
 
-![Trianglify](/trianglify.png?raw=true)
+Trianglify ![Trianglify](/trianglify.png?raw=true)
 
 
 # Credits
