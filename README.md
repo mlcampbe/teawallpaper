@@ -20,6 +20,14 @@ from 6am to 6am. When loaded the progression between colors is updated every 10 
 noticable other than the color will gradually change.
 ![Alt text](/screenshot.png?raw=true)
 
+The other included images are:
+Hexagons
+![Hexagons](/hexagons.png?raw=true)
+Triangles
+![Triangles](/triangles.png?raw=true)
+Trianglify
+![Trianglify](/trianglify.png?raw=true)
+
 # Credits
 This code is based upon the original source code for Tea-Time-Lapse by gruppler at https://gruppler.deviantart.com/art/Tea-Time-Lapse-99395260
 
