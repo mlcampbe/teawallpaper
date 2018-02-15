@@ -16,8 +16,9 @@ Take a look at the live geopattern generator at http://btmills.github.io/geopatt
 
 # Screenshot
 The below gif shows the color as a complete 24-hour cycle
-from 6am to 6am. When loaded the progression between colors is updated every 10 minutes so that the transition between 2 images is hardly
-noticable other than the color will gradually change.
+from 6am to 6am. When loaded the progression between colors is updated every 10 minutes so that the transition between 2 images is hardly noticable other than the color will gradually change.
+
+
 ![Screenshot](/teawallpaper.gif?raw=true)
 
 The other included images are:
