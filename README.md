@@ -15,7 +15,7 @@ A new set of images can be created to cycle through by creating 8 images with th
 Take a look at the live geopattern generator at http://btmills.github.io/geopattern to get started with some ideas.
 
 # Screenshot
-It is hard to build a screenshot as the background changes over time. The below screenshot shows the color as a complete 24-hour cycle
+The below gif shows the color as a complete 24-hour cycle
 from 6am to 6am. When loaded the progression between colors is updated every 10 minutes so that the transition between 2 images is hardly
 noticable other than the color will gradually change.
 ![Screenshot](/teawallpaper.gif?raw=true)
