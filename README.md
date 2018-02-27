@@ -23,7 +23,7 @@ from 6am to 6am. When loaded the progression between colors is updated every 10 
 
 The other included images are:
 
-Hexagons ![Hexagons](/hexagons.png?raw=true)
+Solids ![Solids](/solids.png?raw=true)
 
 Triangles ![Triangles](/triangles.png?raw=true)
 
