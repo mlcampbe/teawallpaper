@@ -3,9 +3,9 @@ A Ubersicht widget to display a wallpaper with colors that correspond to the tim
 them together seemlessly so that there is a smooth transition between the images every 3 hours over a 24 hour period.
 
 # Install
-Edit the teawallpaper.js and review/modify the following items:
-1) The "firstHourImage" variable on line 50. This is the time of day that the first image in the "images" array will be displayed. By default this is 6am.
-2) The "imageDir" variable on line 51. This is the subdirectory that holds the 8 images to cycle through. The default is "hexagons" but the widget also includes "solids", "triangles", and "trianglify" to try out as well.
+Edit the index.coffee and review/modify the following items:
+1) The "firstHourImage" variable on line 47. This is the time of day that the first image in the "images" array will be displayed. By default this is 6am.
+2) The "imageDir" variable on line 48. This is the subdirectory that holds the 8 images to cycle through. The default is "hexagons" but the widget also includes "solids", "triangles", and "trianglify" to try out as well.
 
 # Customization
 A new set of images can be created to cycle through by creating 8 images with the names "sunrise.png", "day.png", "afternoon.png",
