@@ -1,3 +1,5 @@
+debug = 0
+
 command: ''
 
 refreshFrequency: '10m'
@@ -8,7 +10,7 @@ style: """
   height: 100%
   width: 100%
   position: absolute
-  div.bottomLayerContainer 
+  div.bottomLayerContainer
     z-index: -10000
     position: absolute
     top: 0px
@@ -16,7 +18,7 @@ style: """
     width: 100%
     height: 100%
     background-size: cover
-  div.topLayerContainer 
+  div.topLayerContainer
     z-index: -9999
     position: absolute
     top: 0px
@@ -61,7 +63,8 @@ update: (output, domEl) ->
 
   # bottom layer
   bottomLayer.onload = ->
-    console.log time + ' bottom layer=' + bottomLayer.src
+    if debug
+      console.log time + ' bottom layer=' + bottomLayer.src
     $domEl.find('.bottomLayerContainer').addClass 'old'
     $div = $('<div class="bottomLayerContainer" />')
     $div.css 'background-image', 'url("' + bottomLayer.src + '")'
@@ -74,7 +77,8 @@ update: (output, domEl) ->
 
   # top layer
   topLayer.onload = ->
-    console.log time + ' top layer=' + topLayer.src + ' opacity=' + opacity
+    if debug
+      console.log time + ' top layer=' + topLayer.src + ' opacity=' + opacity
     $domEl.find('.topLayerContainer').addClass 'old'
     $div = $('<div class="topLayerContainer" />')
     $div.css 'background-image', 'url("' + topLayer.src + '")'
